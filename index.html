@@ -7,11 +7,12 @@
   <title>Bracedev | Company</title>
 
   <link rel="stylesheet" href="bracedev2.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
   <div class="nav-hero-container">
-    <div class="nav-container">
+    <div class="nav-container" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
       <div class="nav-logo">
         <h1>Bracedev</h1>
       </div>
@@ -32,18 +33,18 @@
     </div>
     <div class="hero-container">
       <div class="left-hero-content">
-        <div class="content-one">
+        <div class="content-one" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
           <h2>SAP Solution Manager</h2>
           <p>This flexibility ensures that you pay for what you use, optimizing both performance and cost - efficiency
           </p>
         </div>
-        <div class="content-two">
+        <div class="content-two" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
           <h2>SAP Solution Manager</h2>
           <p>This flexibility ensures that you pay for what you use, optimizing both performance and cost - efficiency
           </p>
         </div>
       </div>
-      <div class="middle-hero-content">
+      <div class="middle-hero-content" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
         <h1>Build Faster with Beautiful Templates</h1>
         <p>Start your next project with Bracedev- Clean, Responsive, Ready</p>
         <button class="get-started">Get Started</button>
@@ -53,12 +54,12 @@
         </div>
       </div>
       <div class="right-hero-content">
-        <div class="content-three">
+        <div class="content-three" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
           <h2>SAP Solution Manager</h2>
           <p>This flexibility ensures that you pay for what you use, optimizing both performance and cost - efficiency
           </p>
         </div>
-        <div class="content-four">
+        <div class="content-four" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
           <h2>SAP Solution Manager</h2>
           <p>This flexibility ensures that you pay for what you use, optimizing both performance and cost - efficiency
           </p>
@@ -66,6 +67,11 @@
       </div>
     </div>
   </div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
