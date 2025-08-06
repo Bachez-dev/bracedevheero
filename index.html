@@ -8,7 +8,12 @@
 
   <link rel="stylesheet" href="bracedev2.css">
   <link rel="stylesheet" href="template.css">
+  <link rel="stylesheet" href="pricing.css">
+  <link rel="stylesheet" href="testimonials.css">
+  <link rel="stylesheet" href="FAQ.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -179,10 +184,132 @@
     </div>
   </section>
 
+  <!-- PRICING SECTION -->
+
+  <section class="pricing-section">
+    <div class="container">
+      <h2 class="section-title">Pricing Plans</h2>
+      <p class="section-subtitle">Pick the plan that suits your needs.</p>
+
+      <div class="pricing-grid">
+
+        <div class="pricing-card">
+          <h3>Free</h3>
+          <p class="price">$0</p>
+          <ul class="features">
+            <li>3 Free Templates</li>
+            <li>Basic Support</li>
+            <li>Responsive Design</li>
+          </ul>
+          <a href="#" class="btn-pricing">Get Started</a>
+        </div>
+
+
+        <div class="pricing-card popular">
+          <div class="badge">Most Popular</div>
+          <h3>Pro</h3>
+          <p class="price">$29<span>/one-time</span></p>
+          <ul class="features">
+            <li>15 Premium Templates</li>
+            <li>Priority Support</li>
+            <li>Custom License</li>
+          </ul>
+          <a href="#" class="btn-pricing">Buy Now</a>
+        </div>
+
+
+        <div class="pricing-card">
+          <h3>Unlimited</h3>
+          <p class="price">$59<span>/lifetime</span></p>
+          <ul class="features">
+            <li>All Current & Future Templates</li>
+            <li>Lifetime Updates</li>
+            <li>White Label Use</li>
+          </ul>
+          <a href="#" class="btn-pricing">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+
+  <section class="testimonials-section">
+    <h2>Testimonials</h2>
+    <p>Words of praise from others about our presence.</p>
+
+    <div class="scroll-row" id="row1">
+      <div class="testimonial-track" id="track1">
+      </div>
+    </div>
+
+    <div class="scroll-row" id="row2" style="margin-top: 30px;">
+      <div class="testimonial-track" id="track2">
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="faq-container">
+    <div class="faq-header">
+      <h2>Frequently Asked Questions</h2>
+      <p>Here are the most asked questions based from our users.</p>
+    </div>
+
+    <div class="faq-grid">
+      <div class="faq-card">
+        <div class="icon">💰</div>
+        <h3>Do you offer refund?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+      </div>
+      <div class="faq-card">
+        <div class="icon">🎁</div>
+        <h3>Can I try free trial now?</h3>
+        <p>Eget dolor morbi non arcu risus quis. Tincidunt dui ut ornare...</p>
+      </div>
+      <div class="faq-card">
+        <div class="icon">📞</div>
+        <h3>How can I reach support?</h3>
+        <p>Enim praesent elementum facilisis leo. Diam donec adipiscing...</p>
+      </div>
+      <div class="faq-card">
+        <div class="icon">✅</div>
+        <h3>Will it work for me?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+      </div>
+      <div class="faq-card">
+        <div class="icon">💸</div>
+        <h3>How much does it cost?</h3>
+        <p>Eget dolor morbi non arcu risus quis. Vestibulum lorem sed...</p>
+      </div>
+      <div class="faq-card">
+        <div class="icon">🛠️</div>
+        <h3> Can I customize the templates?</h3>
+        <p>Diam donec adipiscing tristique risus nec feugiat...</p>
+      </div>
+    </div>
+
+    <div class="faq-support">
+      <div class="avatars">
+        <img src="https://i.pravatar.cc/40?img=1" />
+        <img src="https://i.pravatar.cc/40?img=2" />
+        <img src="https://i.pravatar.cc/40?img=3" />
+        <img src="https://i.pravatar.cc/40?img=4" />
+      </div>
+      <div>
+        <h4>Get in Touch With Our Team</h4>
+        <p>Have more questions? We’re always happy to help — reach out anytime!</p>
+        <a href="#contact" class="btn-purple">Get in Touch →</a>
+      </div>
+    </div>
+  </section>
+
+
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
+  <script src="testimonials.js"></script>
 </body>
 
 </html>
