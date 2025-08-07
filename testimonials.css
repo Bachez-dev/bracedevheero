@@ -25,6 +25,7 @@
     .testimonial-track {
       display: flex;
       gap: 20px;
+      padding:0 10px;
     }
 
     .testimonial-card {

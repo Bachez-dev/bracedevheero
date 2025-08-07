@@ -65,6 +65,10 @@
     text-align: center;
   }
 
+  .faq-support-CTA{
+    height: 150px;
+  }
+
   .faq-support .avatars img {
     width: 40px;
     height: 40px;
