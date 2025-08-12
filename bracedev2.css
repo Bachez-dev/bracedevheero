@@ -306,3 +306,50 @@
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #f9f9fb 100%);
   z-index: 1;
 }
+
+/* FLOATING SHAPES */
+.floating-shape {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #e0e7ff;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: float 8s ease-in-out infinite;
+}
+
+.shape2 {
+  background: #fcd34d;
+  border-radius: 8px;
+  animation-duration: 10s;
+}
+
+.shape3 {
+  background: #f9a8d4;
+  border-radius: 50%;
+  animation-duration: 12s;
+}
+
+.shape4 {
+  background: #6ee7b7;
+  border-radius: 50%;
+  animation-duration: 9s;
+}
+
+.shape5 {
+  background: #93c5fd;
+  border-radius: 8px;
+  animation-duration: 11s;
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+
+  50% {
+    transform: translateY(-15px) translateX(10px);
+  }
+}
