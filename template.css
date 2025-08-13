@@ -1,12 +1,13 @@
 /* Light Theme Styles */
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #f9f9fb;
   color: #333;
+  background: #f9f9fb;
   margin: 0;
 }
 
 .templates-section-light {
+  width: 100%;
   padding: 80px 20px;
   background-color: #ffffff;
   text-align: center;

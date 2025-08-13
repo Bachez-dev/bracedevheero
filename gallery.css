@@ -3,6 +3,7 @@
     height: 1300px;
     display: flex;
     justify-content: center;
+    background: white;
     align-items: center;
   }
   .gallery-section {
