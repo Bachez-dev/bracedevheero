@@ -1,6 +1,6 @@
     .testimonials-section {
       padding: 60px 0;
-      background: white;
+      background: #f9f9fb;
     }
 
     .testimonials-section h2 {
@@ -25,7 +25,8 @@
     .testimonial-track {
       display: flex;
       gap: 20px;
-      padding:0 10px;
+      padding: 0 10px;
+      background: #f9f9fb;
     }
 
     .testimonial-card {
@@ -79,6 +80,6 @@
       top: -20px;
       left: -20px; */
       font-size: 50px;
-      color: rgba(0, 0, 0, 0.1);
+      color: rgba(149, 89, 228, 0.781);
       z-index: 0;
     }
