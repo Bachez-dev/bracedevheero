@@ -285,4 +285,5 @@ grid.innerHTML = TEMPLATES.map((t, idx) => `
           </div>
         </div>
       </article>
-    `).join('');
+    `).join('')
+;
